@@ -1,7 +1,7 @@
 from tqdm import tqdm
 from torch import optim
 from torch.utils.tensorboard import SummaryWriter
-from c_style_gan.model.discriminator import Discriminator
+from model.discriminator import Discriminator
 import os
 import torch
 import numpy as np
@@ -9,7 +9,7 @@ import torch.nn as nn
 
 
 from torch import nn
-from c_style_gan.model.discriminator import View
+from model.discriminator import View
 
 
 class ClassifierBlock(nn.Module):
