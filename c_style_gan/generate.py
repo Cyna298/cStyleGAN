@@ -5,9 +5,9 @@ import argparse
 import logging
 
 from tqdm import tqdm
-from c_style_gan.model.generator import Generator
-from c_style_gan.train import G_NAME
-from c_style_gan.audio import MelToAudio
+from model.generator import Generator
+from train import G_NAME
+from audio import MelToAudio
 
 
 def load_generator(options, gen_state, device):
