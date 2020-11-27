@@ -7,7 +7,7 @@ import numpy as np
 import os
 import torch
 import logging
-from c_style_gan import setup_logger
+import setup_logger
 logger = logging.getLogger('train.dataset')
 
 class SpokenDigits(Dataset):
