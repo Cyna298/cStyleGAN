@@ -1,4 +1,4 @@
-from c_style_gan.audio import AudioToMel
+import AudioToMel
 from tqdm import tqdm
 
 import os
