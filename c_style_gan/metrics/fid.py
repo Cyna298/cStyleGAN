@@ -1,11 +1,11 @@
 from scipy import linalg
 from torch import nn
 from torch.utils.data import Dataset, DataLoader
-from c_style_gan.dataset import ToTensor, TimePadding
+from dataset import ToTensor, TimePadding
 from torchvision import transforms
 from tqdm import tqdm
-from c_style_gan.model.discriminator import Discriminator
-from c_style_gan.metrics.classifier import Classifier
+from model.discriminator import Discriminator
+from metrics.classifier import Classifier
 import logging
 import torch
 import os
