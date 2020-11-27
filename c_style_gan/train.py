@@ -1,17 +1,17 @@
 from torch import nn
-from c_style_gan.model.discriminator import Discriminator
-from c_style_gan.model.generator import Generator
-from c_style_gan.dataset import ToTensor, TimePadding, NormalizeTensor, SpokenDigits, ResizeTensor
+from model.discriminator import Discriminator
+from model.generator import Generator
+from dataset import ToTensor, TimePadding, NormalizeTensor, SpokenDigits, ResizeTensor
 from torchvision import datasets
 from torch import optim
 from tqdm import tqdm
-from c_style_gan.audio import MelToAudio
+from audio import MelToAudio
 from torch.utils.data import DataLoader
-from c_style_gan.setup_logger import logger
+from setup_logger import logger
 from torch.utils.tensorboard import SummaryWriter
 from torch.nn import functional as F
 from torch.autograd import grad
-from c_style_gan.metrics.fid import FID
+from metrics.fid import FID
 
 import os
 import torch
