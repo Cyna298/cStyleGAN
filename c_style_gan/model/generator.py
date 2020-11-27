@@ -1,6 +1,6 @@
 from torch import nn
-from c_style_gan.model.mapping_net import MappingNet
-from c_style_gan.model.synthesis_net import SynthesisNet
+from model.mapping_net import MappingNet
+from model.synthesis_net import SynthesisNet
 
 import torch
 import numpy as np
