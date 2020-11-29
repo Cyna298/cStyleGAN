@@ -5,3 +5,5 @@
 *.npy
 
 venv/*
+
+dir_to_ignore/c_style_gan/data/sc09/
